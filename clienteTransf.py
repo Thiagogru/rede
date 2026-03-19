@@ -36,7 +36,7 @@ def send_file(filename, server_ip, server_port):
 
 if __name__ == "__main__":
     # Inclua a extensão do arquivo
-    FILE_TO_SEND = "C:/Users/gruen/Pictures/compiladores/CompiladoresLista1-1.jpg"
+    FILE_TO_SEND = "..." #change to the correct address
     SERVER_IP = "127.0.0.1"
     SERVER_PORT = 12345
     send_file(FILE_TO_SEND, SERVER_IP, SERVER_PORT)
